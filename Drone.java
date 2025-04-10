@@ -44,5 +44,10 @@ class Drone {
         energi--;
         System.out.println("Drone Mundur ke belakang");
         kecepatan++;
+
+     void Aceng(){
+        energi--;
+        System.out.println("Drone Aceng ke belakang");
+        kecepatan++;
     }   
 }
